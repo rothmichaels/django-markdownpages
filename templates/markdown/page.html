@@ -1,0 +1,10 @@
+<html>
+  <head>
+    {% if markdown_title %}
+    <title>{{ markdown_title|safe }}</title>
+    {% endif %}
+  </head>
+  <body>
+    {{ markdown_body|safe }}
+  </body>
+</html>
