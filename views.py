@@ -26,7 +26,7 @@ def page(request, markdown_path):
         title = search[1]
         markdown = search[0] + search[2]
     
-    template = loader.get_template('markdown/page.html')
+    template = loader.get_template('markdownpages/page.html')
     context = RequestContext(request, {
         'markdown_title': title,
         'markdown_body': markdown,
