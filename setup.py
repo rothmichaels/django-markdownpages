@@ -9,12 +9,12 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-markdownpages',
-    version='0.1.1',
+    version='0.1.2',
     packages=['markdownpages'],
     install_requires=['markdown'],
     include_package_data=True,
     license='Eclipse Public License v1.0',
-    description='A simple Django app to conduct Web-based polls.',
+    description='Django app providing a view to server a tree of rendered markdown files.',
     long_description=README,
     url='http://github.com/rothmichaels/django-markdownpages',
     author='Roth Michaels',
