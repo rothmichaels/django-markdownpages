@@ -21,7 +21,7 @@ Quick Start
 3. Include the Markdown Pages URLConf in your project urls.py by adding
    the folowing as the final url in urlpatterns:
 
-    url(r'^', include('markdownpages.urls'))
+     url(r'^', include('markdownpages.urls'))
 
 4. Start server!
 
